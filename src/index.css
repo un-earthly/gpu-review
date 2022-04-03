@@ -8,7 +8,12 @@
     font-family: 'Ubuntu', 'Pacifico';
 }
 
+body {
+    background-color: #17252a;
+    color: #def2f1;
+}
+
 .active {
-    border-color: rgb(45 212 191);
-    color: rgb(50, 160, 145);
+    border-color: #3aafa9;
+    color: #3aafa9;
 }
