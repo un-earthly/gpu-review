@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Jeanette Mitchell",
+        "img": "https://randomuser.me/api/portraits/women/33.jpg",
+        "email": "jeanette.mitchell@example.com",
+        "comment": "This is the finest card",
+        "ratings": "4.9/5"
+    },
+    {
+        "id": 2,
+        "name": "Jeanette Mitchell",
+        "img": "https://randomuser.me/api/portraits/women/93.jpg",
+        "email": "jeanette.mitchell@example.com",
+        "comment": "avarage",
+        "ratings": "3.5/5"
+    },
+    {
+        "id": 3,
+        "name": "Jeanette Mitchell",
+        "img": "https://randomuser.me/api/portraits/women/58.jpg",
+        "email": "jeanette.mitchell@example.com",
+        "comment": "i just wasted my money",
+        "ratings": "1/5"
+    },
+    {
+        "id": 4,
+        "name": "Pat Wood",
+        "img": "https://randomuser.me/api/portraits/men/34.jpg",
+        "email": "pat.wood@example.com",
+        "comment": "i loved its built quality and ive became more productive using this.",
+        "ratings": "5/5"
+    },
+    {
+        "id": 5,
+        "name": "Jeanette Mitchell",
+        "img": "https://randomuser.me/api/portraits/women/73.jpg",
+        "email": "jeanette.mitchell@example.com",
+        "comment": "not so good for gaming",
+        "ratings": "2.5/5"
+    },
+    {
+        "id": 6,
+        "name": "Jesse Brooks",
+        "img": "https://randomuser.me/api/portraits/men/84.jpg",
+        "email": "jesse.brooks@example.com",
+        "comment": "reccomended",
+        "ratings": "4.5/5"
+    }
+]
