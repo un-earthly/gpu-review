@@ -8,6 +8,22 @@
     font-family: 'Ubuntu', 'Pacifico';
 }
 
+::selection {
+    color: burlywood;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-button {
+    background: rgba(255, 166, 0, 0.37);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 238, 255, 0.185);
+}
+
 body {
     background-color: #17252a;
     color: #def2f1;
