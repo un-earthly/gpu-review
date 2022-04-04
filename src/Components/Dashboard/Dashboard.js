@@ -15,18 +15,18 @@ export default function Dashboard() {
         lineHeight: '24px',
     };
     return (
-        <div className='grid grid-cols-2 gap-20 mx-20 my-32'>
+        <div className='grid grid-cols-2 gap-20 mx-20 mt-32 pb-32'>
             <div>
                 <h1 className='text-3xl my-3 text-center'> Mothly Sale</h1>
                 <LineChart width={600} height={400} data={data}>
-                    <Line type="monotone" dataKey="sell" stroke="#8884d8" />
+                    <Line type="monotone" dataKey="sell" stroke="#fff" />
                     <XAxis dataKey="month" />
                     <YAxis />
                     <Tooltip />
                     <CartesianGrid />
                 </LineChart>
             </div>
-            <div className=''>
+            <div>
                 <h1 className='text-3xl my-3 text-center capitalize'> investment revenue</h1>
 
                 <BarChart

@@ -17,3 +17,8 @@ body {
     border-color: #3aafa9;
     color: #3aafa9;
 }
+
+article:last-child {
+    margin: auto;
+    width: 100%;
+}

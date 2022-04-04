@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Blogs() {
     return (
-        <div className='text-center p-16'>
+        <div className='text-center p-16 min-h-[87.7vh]'>
             <div className="m-2 mx-14">
                 <p className="text-gray-50 p-8 text-3xl capitalize">
                     what is context api ? why it is used?

@@ -8,7 +8,7 @@ import About from './Components/About/About'
 import Error from './Components/Error/Error'
 function App() {
   return (
-    <div className="App">
+    <div className=" bg-[#0a0200] bg-fixed bg-blend-soft-light bg-[url('https://wallpaper.dog/large/10778246.jpg')] bg-cover bg-center bg-no-repeat">
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />

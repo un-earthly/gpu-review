@@ -9,17 +9,17 @@
     },
     {
         "id": 2,
-        "name": "Jeanette Mitchell",
+        "name": "Cindy Peterson",
         "img": "https://randomuser.me/api/portraits/women/93.jpg",
-        "email": "jeanette.mitchell@example.com",
+        "email": "cindy.peterson@example.com",
         "comment": "avarage",
         "ratings": "3.5/5"
     },
     {
         "id": 3,
-        "name": "Jeanette Mitchell",
+        "name": "Jim Hayes",
         "img": "https://randomuser.me/api/portraits/women/58.jpg",
-        "email": "jeanette.mitchell@example.com",
+        "email": "jim.hayes@example.com",
         "comment": "i just wasted my money",
         "ratings": "1/5"
     },
@@ -33,9 +33,9 @@
     },
     {
         "id": 5,
-        "name": "Jeanette Mitchell",
+        "name": "Sharlene Morris",
         "img": "https://randomuser.me/api/portraits/women/73.jpg",
-        "email": "jeanette.mitchell@example.com",
+        "email": "sharlene.morris@example.com",
         "comment": "not so good for gaming",
         "ratings": "2.5/5"
     },
@@ -44,7 +44,7 @@
         "name": "Jesse Brooks",
         "img": "https://randomuser.me/api/portraits/men/84.jpg",
         "email": "jesse.brooks@example.com",
-        "comment": "reccomended",
+        "comment": "recommended",
         "ratings": "4.5/5"
     }
 ]
