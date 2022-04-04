@@ -4,4 +4,4 @@
 * This is a site where user reviews are shown
 * It also shows some charts on sales over the years
 * Some questions are answered as blogs reviews
-* this site is created using react, react router, tailwind css.
+* this site is created using react, react router, bootstrap icons, google fonts, recharts, tailwind css.

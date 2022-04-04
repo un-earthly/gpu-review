@@ -11,7 +11,7 @@ export default function Review({ name, img, email, comment, ratings, className }
                         <p>Email: {email}</p>
                     </div>
                 </div>
-                <p>Ratings: <spam className="text-[orange]">{ratings}</spam></p>
+                <p>Rating: <spam className="text-[orange]">{ratings}</spam></p>
             </div>
             <q className='text-center text-4xl mx-24 mt-10 block capitalize'>{comment}</q>
         </article>
