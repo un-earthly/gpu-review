@@ -8,7 +8,7 @@ export default function Reviews() {
     return (
         <div className='p-12'>
 
-            <h1 className="text-5xl my-14 text-center">
+            <h1 className="text-5xl my-14 text-[cyan] text-center">
                 Lets Hear Others Thought !!
             </h1>
             {

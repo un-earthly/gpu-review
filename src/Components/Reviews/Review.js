@@ -13,7 +13,7 @@ export default function Review({ name, img, email, comment, ratings, className }
                 </div>
                 <p>Rating: <span className="text-[orange]">{ratings}</span></p>
             </div>
-            <q className='text-center text-4xl mx-24 mt-10 block capitalize'>{comment}</q>
+            <q className='text-center text-4xl mx-24 mt-10 block capitalize text-[orange]'>{comment}</q>
         </article>
     )
 }

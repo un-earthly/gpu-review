@@ -17,7 +17,7 @@ export default function Dashboard() {
     return (
         <div className='grid grid-cols-2 gap-20 mx-20 mt-32 pb-32'>
             <div>
-                <h1 className='text-3xl my-3 text-center'> Mothly Sale</h1>
+                <h1 className='text-3xl text-[cyan] my-3 text-center'> Mothly Sale</h1>
                 <LineChart width={600} height={400} data={data}>
                     <Line type="monotone" dataKey="sell" stroke="#fff" />
                     <XAxis dataKey="month" />
@@ -27,7 +27,7 @@ export default function Dashboard() {
                 </LineChart>
             </div>
             <div>
-                <h1 className='text-3xl my-3 text-center capitalize'> investment revenue</h1>
+                <h1 className='text-3xl text-[cyan] my-3 text-center capitalize'> investment revenue</h1>
 
                 <BarChart
                     width={600}
@@ -52,7 +52,7 @@ export default function Dashboard() {
 
             </div>
             <div>
-                <h1 className='text-3xl my-3 text-center'>Month Investment Revenue</h1>
+                <h1 className='text-3xl text-[cyan] my-3 text-center'>Month Investment Revenue</h1>
 
                 <AreaChart
                     width={600}
