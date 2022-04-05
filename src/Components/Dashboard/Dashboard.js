@@ -16,62 +16,71 @@ export default function Dashboard() {
         lineHeight: '24px',
     };
     return (
-        <div className='grid md:grid-cols-2 grid-cols-1  gap-20 mx-20 mt-32 pb-32'>
-            <div>
+        <div className='grid md:grid-cols-2 grid-cols-1 md:gap-20 md:mx-20 md:mt-32 md:pb-32 m-4 mb-0 pb-5'>
+            <div className='flex jusctify-center items-center flex-col'>
                 <H1 classList='text-[cyan]' text='Monthly Sale' />
-                <LineChart width={600} height={400} data={data}>
-                    <Line type="monotone" dataKey="sell" stroke="#fff" />
-                    <XAxis dataKey="month" />
-                    <YAxis />
-                    <Tooltip />
-                    <CartesianGrid />
-                </LineChart>
+                <div style={{ width: '100%', height: 300 }}>
+                    <ResponsiveContainer>
+                        <LineChart data={data}>
+                            <Line type="monotone" dataKey="sell" stroke="#fff" />
+                            <XAxis dataKey="month" />
+                            <YAxis />
+                            <Tooltip />
+                            <CartesianGrid />
+                        </LineChart>
+                    </ResponsiveContainer>
+                </div>
             </div>
-            <div>
+            <div className='flex jusctify-center items-center flex-col'>
                 <H1 text='investment revenue' classList={'text-[cyan]'} />
-
-                <BarChart
-                    width={600}
-                    height={400}
-                    data={data}
-                    margin={{
-                        top: 5,
-                        right: 30,
-                        left: 20,
-                        bottom: 5,
-                    }}
+                <div
+                    style={{ width: '100%', height: 300 }}
                 >
-                    <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis dataKey="sell" />
-                    <YAxis />
-                    <Tooltip />
-                    <Legend />
-                    <Bar dataKey="investment" fill="#8884d8" />
-                    <Bar dataKey="revenue" fill="#82ca9d" />
-                </BarChart>
-
-
+                    <ResponsiveContainer>
+                        <BarChart
+                            data={data}
+                            margin={{
+                                top: 5,
+                                right: 30,
+                                left: 20,
+                                bottom: 5,
+                            }}
+                        >
+                            <CartesianGrid strokeDasharray="3 3" />
+                            <XAxis dataKey="sell" />
+                            <YAxis />
+                            <Tooltip />
+                            <Legend />
+                            <Bar dataKey="investment" fill="#8884d8" />
+                            <Bar dataKey="revenue" fill="#82ca9d" />
+                        </BarChart>
+                    </ResponsiveContainer>
+                </div>
             </div>
-            <div>
+            <div className='flex jusctify-center items-center flex-col'>
                 <H1 text='Month Investment Revenue' classList={'text-[cyan]'} />
-                <AreaChart
-                    width={600}
-                    height={400}
-                    data={data}
-                    margin={{
-                        top: 10,
-                        right: 30,
-                        left: 0,
-                        bottom: 0,
-                    }}
+                <div
+                    style={{ width: '100%', height: 300 }}
                 >
-                    <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis dataKey="month" />
-                    <YAxis />
-                    <Tooltip />
-                    <Area type="monotone" dataKey="investment" stroke="#8884d8" fill="#8884d8" />
-                    <Area type="monotone" dataKey="revenue" stroke="#8884e8" fill="#8884e8" />
-                </AreaChart>
+                    <ResponsiveContainer>
+                        <AreaChart
+                            data={data}
+                            margin={{
+                                top: 10,
+                                right: 30,
+                                left: 0,
+                                bottom: 0,
+                            }}
+                        >
+                            <CartesianGrid strokeDasharray="3 3" />
+                            <XAxis dataKey="month" />
+                            <YAxis />
+                            <Tooltip />
+                            <Area type="monotone" dataKey="investment" stroke="#8884d8" fill="#8884d8" />
+                            <Area type="monotone" dataKey="revenue" stroke="#8884e8" fill="#8884e8" />
+                        </AreaChart>
+                    </ResponsiveContainer>
+                </div>
             </div>
 
         </div >
