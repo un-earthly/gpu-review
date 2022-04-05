@@ -1,12 +1,12 @@
 import React from 'react'
+import H1 from '../Utils/H1'
 
 export default function Article({ className, paragraph, heading }) {
     return (
-        <div className={`flex flex-col items-center justify-center p-10 ${className}`}>
-            <h1 className={`text-4xl capitalize text-center text-[cyan] m-3 `}>
-                {heading}
-            </h1>
-            <p className={`capitalize m-1 mx-10 text-xl text-[#00b9b9] text-center `}>{paragraph}</p>
+        <div className={`flex flex-col items-center justify-center text-center md:p-10 p-5 ${className}`}>
+            <H1 text={heading} className='text-[cyan]' />
+
+            <p className={`capitalize m-1 md:mx-10 md:text-xl text-[#00b9b9] `}>{paragraph}</p>
         </div>
     )
 }

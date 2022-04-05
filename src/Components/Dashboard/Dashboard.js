@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Area, AreaChart, Bar, BarChart, CartesianGrid, ComposedChart, Legend, Line, LineChart, Pie, PieChart, PolarAngleAxis, PolarGrid, PolarRadiusAxis, Radar, RadarChart, RadialBar, RadialBarChart, ResponsiveContainer, Scatter, Tooltip, XAxis, YAxis } from 'recharts'
+import H1 from '../Utils/H1'
 
 export default function Dashboard() {
     const [data, setData] = useState([])
@@ -15,9 +16,9 @@ export default function Dashboard() {
         lineHeight: '24px',
     };
     return (
-        <div className='grid grid-cols-2 gap-20 mx-20 mt-32 pb-32'>
+        <div className='grid md:grid-cols-2 grid-cols-1  gap-20 mx-20 mt-32 pb-32'>
             <div>
-                <h1 className='text-3xl text-[cyan] my-3 text-center'> Mothly Sale</h1>
+                <H1 classList='text-[cyan]' text='Monthly Sale' />
                 <LineChart width={600} height={400} data={data}>
                     <Line type="monotone" dataKey="sell" stroke="#fff" />
                     <XAxis dataKey="month" />
@@ -27,7 +28,7 @@ export default function Dashboard() {
                 </LineChart>
             </div>
             <div>
-                <h1 className='text-3xl text-[cyan] my-3 text-center capitalize'> investment revenue</h1>
+                <H1 text='investment revenue' classList={'text-[cyan]'} />
 
                 <BarChart
                     width={600}
@@ -52,8 +53,7 @@ export default function Dashboard() {
 
             </div>
             <div>
-                <h1 className='text-3xl text-[cyan] my-3 text-center'>Month Investment Revenue</h1>
-
+                <H1 text='Month Investment Revenue' classList={'text-[cyan]'} />
                 <AreaChart
                     width={600}
                     height={400}

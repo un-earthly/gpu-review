@@ -6,9 +6,9 @@ export default function Reviews() {
 
     const [review, setReview] = useReview()
     return (
-        <div className='p-12'>
+        <div className='md:p-12 p-3'>
 
-            <h1 className="text-5xl my-14 text-[cyan] text-center">
+            <h1 className="md:text-5xl text-xl my-14 text-[cyan] text-center">
                 Lets Hear Others Thought !!
             </h1>
             {
